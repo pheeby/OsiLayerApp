@@ -6,4 +6,60 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="190"
+        android:layout_height="62"
+        app:srcCompat="@drawable/layer_7_long"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="32dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="190"
+        android:layout_height="62"
+        app:srcCompat="@drawable/layer_6_long"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="94dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="190"
+        android:layout_height="62"
+        app:srcCompat="@drawable/layer_5_long"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="156dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="190"
+        android:layout_height="62"
+        app:srcCompat="@drawable/layer_4_long"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="218dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="190"
+        android:layout_height="62"
+        app:srcCompat="@drawable/layer_3_long"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="280dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="190dp"
+        android:layout_height="62dp"
+        app:srcCompat="@drawable/layer_2_long"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="342dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="190dp"
+        android:layout_height="62"
+        app:srcCompat="@drawable/layer_1_long"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="408dp" />
+
 </android.support.constraint.ConstraintLayout>

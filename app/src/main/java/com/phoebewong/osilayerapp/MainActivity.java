@@ -3,74 +3,73 @@ package com.phoebewong.osilayerapp;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.content.Intent;
 import android.widget.ImageButton;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button button1;
-    Button button2;
-    Button button3;
-    Button button4;
-    Button button5;
-    Button button6;
-    Button button7;
+    ImageButton imageButton1;
+    ImageButton imageButton2;
+    ImageButton imageButton3;
+    ImageButton imageButton4;
+    ImageButton imageButton5;
+    ImageButton imageButton6;
+    ImageButton imageButton7;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        button1 = findViewById(R.id.button1);
-        button1.setOnClickListener(new View.OnClickListener(){
+        imageButton1 = findViewById(R.id.imageButton1);
+        imageButton1.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
                 startActivity(new Intent(MainActivity.this, Layer1.class));
             }
         });
 
-        button2 = findViewById(R.id.button2);
-        button2.setOnClickListener(new View.OnClickListener(){
+        imageButton2 = findViewById(R.id.imageButton2);
+        imageButton2.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
                 startActivity(new Intent(MainActivity.this, Layer2.class));
 
             }
         });
 
-        button3 = findViewById(R.id.button3);
-        button3.setOnClickListener(new View.OnClickListener(){
+        imageButton3 = findViewById(R.id.imageButton3);
+        imageButton3.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
                 startActivity(new Intent(MainActivity.this, Layer3.class));
 
             }
         });
 
-        button4 = findViewById(R.id.button4);
-        button4.setOnClickListener(new View.OnClickListener(){
+        imageButton4 = findViewById(R.id.imageButton4);
+        imageButton4.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
                 startActivity(new Intent(MainActivity.this, Layer4.class));
 
             }
         });
 
-        button5 = findViewById(R.id.button5);
-        button5.setOnClickListener(new View.OnClickListener(){
+        imageButton5 = findViewById(R.id.imageButton5);
+        imageButton5.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
                 startActivity(new Intent(MainActivity.this, Layer5.class));
 
             }
         });
 
-        button6 = findViewById(R.id.button6);
-        button6.setOnClickListener(new View.OnClickListener(){
+        imageButton6 = findViewById(R.id.imageButton6);
+        imageButton6.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
                 startActivity(new Intent(MainActivity.this, Layer6.class));
 
             }
         });
 
-        button7 = findViewById(R.id.button7);
-        button7.setOnClickListener(new View.OnClickListener(){
+        imageButton7 = findViewById(R.id.imageButton7);
+        imageButton7.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
                 startActivity(new Intent(MainActivity.this, Layer7.class));
 
